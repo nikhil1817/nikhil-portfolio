@@ -17,8 +17,9 @@ function SkillGroup({ title, items }: { title: string; items: string[] }) {
 
 export default function Skills() {
   return (
-    <section id="skills" className="px-6 md:px-20 py-16">
-      <h2 className="text-2xl md:text-3xl font-bold mb-6">Skills</h2>
+    <section id="skills" className="px-6 md:px-20 py-24">
+      <h2 className="text-3xl md:text-4xl font-bold mb-10">Skills</h2>
+
 
       <div className="grid md:grid-cols-2 gap-4">
         <SkillGroup title="AI / ML" items={skills.ai_ml} />
