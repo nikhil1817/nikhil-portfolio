@@ -1,46 +1,59 @@
 export default function Education() {
-    return (
-      <section id="education" className="px-6 md:px-20 py-20">
-        <h2 className="text-3xl md:text-4xl font-bold mb-10">Education</h2>
-  
-        <div className="space-y-8 max-w-4xl">
+  return (
+    <section id="education" className="px-6 md:px-20 py-24">
+      <div className="max-w-6xl mx-auto">
+        <h2 className="text-3xl md:text-4xl font-bold mb-10 text-white">
+          Education
+        </h2>
+
+        <div className="space-y-8">
           {/* Master's */}
-          <div className="border border-white/10 rounded-xl p-6 bg-white/5">
-            <h3 className="text-xl md:text-2xl font-semibold">
+          <div className="border border-white/10 rounded-2xl p-8 md:p-10 bg-[#020617]/60">
+            <h3 className="text-xl md:text-2xl font-semibold text-blue-400">
               Master of Science in Computer Science
             </h3>
-            <p className="text-white/70 mt-1">
+
+            <p className="text-slate-300 mt-2">
               Western Michigan University — Kalamazoo, MI
             </p>
-            <p className="text-white/50 mt-1">
+
+            <p className="text-slate-400 mt-1">
               Expected April 2026
             </p>
-  
-            <ul className="list-disc ml-5 mt-4 space-y-2 text-white/70">
-              <li>Coursework: Machine Learning, Big Data,Algorithms, Database Systems, Artificial Intelligence, Generative AI,Advanced AI</li>
-              <li>Hands-on projects in ML, NLP, and large-scale data processing</li>
+
+            <div className="h-1 w-12 rounded bg-blue-500/60 my-6" />
+
+            <ul className="list-disc ml-6 space-y-3 text-slate-300 text-base md:text-lg leading-relaxed">
+              <li>Coursework in Machine Learning, Big Data, Advanced Algorithms, and Database Systems</li>
+              <li>Hands-on projects involving ML, NLP, and large-scale data processing</li>
+              <li>Focus on building scalable, data-driven software systems</li>
             </ul>
           </div>
-  
+
           {/* Bachelor's */}
-          <div className="border border-white/10 rounded-xl p-6 bg-white/5">
-            <h3 className="text-xl md:text-2xl font-semibold">
+          <div className="border border-white/10 rounded-2xl p-8 md:p-10 bg-[#020617]/60">
+            <h3 className="text-xl md:text-2xl font-semibold text-blue-400">
               Bachelor of Engineering in Computer Science
             </h3>
-            <p className="text-white/70 mt-1">
+
+            <p className="text-slate-300 mt-2">
               Visvesvaraya Technological University — Bengaluru, India
             </p>
-            <p className="text-white/50 mt-1">
+
+            <p className="text-slate-400 mt-1">
               Graduated 2021
             </p>
-  
-            <ul className="list-disc ml-5 mt-4 space-y-2 text-white/70">
+
+            <div className="h-1 w-12 rounded bg-blue-500/60 my-6" />
+
+            <ul className="list-disc ml-6 space-y-3 text-slate-300 text-base md:text-lg leading-relaxed">
               <li>Strong foundation in data structures, algorithms, and software engineering</li>
-              <li>Completed academic projects in machine learning and full-stack development</li>
+              <li>Completed academic and practical projects in full-stack development and machine learning</li>
+              <li>Built early experience with real-world problem solving and system design</li>
             </ul>
           </div>
         </div>
-      </section>
-    );
-  }
-  
+      </div>
+    </section>
+  );
+}
