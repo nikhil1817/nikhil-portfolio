@@ -8,6 +8,36 @@ export type ProjectItem = {
   
   export const projects: ProjectItem[] = [
     {
+      title: "AI Clinical Assistant system",
+      summary: "Built an AI-powered clinical assistant that answers healthcare-related questions using Retrieval-Augmented Generation (RAG) over medical knowledge sources.",
+      tech: ["Python", "FastAPI", "OpenAI", "FAISS", "LangChain", "Streamlit"],
+      highlights: [
+        "Implemented document retrieval and semantic search for context-aware medical question answering.",
+        "Designed backend APIs and real-time chatbot workflows for healthcare assistance.",
+      ],
+      github: "https://github.com/nikhil1817/AI_Clinical_Assistant_system",
+    },
+    {
+      title: "AI GitHub Engineering Assistant",
+      summary: "Built an AI-powered repository analysis system that clones GitHub repositories, indexes source code, and answers technical questions using Retrieval-Augmented Generation (RAG).",
+      tech: ["Python", "FastAPI", "Streamlit", "OpenAI", "FAISS", "LangChain"],
+      highlights: [
+        "Implemented repository parsing and semantic code search using embeddings and vector similarity.",
+        "Built a RAG pipeline to generate contextual answers from indexed codebases.",
+      ],
+      github: "https://github.com/nikhil1817/AI_Github_Engineering_Assistant",
+    },
+    {
+      title: "Smart Interview System",
+      summary: "Developed an AI-driven interview simulation platform that conducts technical interviews, evaluates responses, and provides structured feedback in real time.",
+      tech: ["Python", "OpenAI", "FastAPI", "NLP", "Regex", "Streamlit"],
+      highlights: [
+        "Implemented role-based interview flows with dynamic question generation and evaluation.",
+        "Built automated response scoring and feedback analysis using NLP techniques.",
+      ],
+      github: "https://github.com/nikhil1817/Smart_Interview_System",
+    },
+    {
       title: "Fake News Detection (BERT, NLP)",
       summary: "Transformer-based text classification system to detect fake news using BERT fine-tuning.",
       tech: ["Python", "Hugging Face", "Transformers", "BERT", "NLTK"],

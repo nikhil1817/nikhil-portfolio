@@ -11,11 +11,11 @@ export type ExperienceItem = {
       company: "Room 35",
       role: "Technology and Systems Intern",
       location: "Kalamazoo, USA",
-      dates: "Oct 2025 – Present",
+      dates: "Oct 2025 – Apr",
       bullets: [
-        "Designed and implemented dynamic financial and operational dashboards using Next.js, reducing manual reporting time by 30%.",
-        "Partnered with executive leadership to define UI and data requirements, improving decision-making efficiency by 15%.",
-        "Built automation workflows integrating QuickBooks, Power BI, and Google Sheets, minimizing human errors by 40%.",
+        "Designed and developed scalable AI-powered applications and automation systems to improve operational efficiency and workflow reliability.",
+        "Built data pipelines and automation workflows, improving data accuracy by 40% and reducing manual reporting by 30%",
+        "Contributed to system design and architectural decisions for scalable applications",
         "Architected internal software solutions including an intelligent chatbot to automate inquiries and improve team workflows.",
       ],
     },
@@ -37,9 +37,10 @@ export type ExperienceItem = {
       location: "Bangalore, India",
       dates: "Aug 2021 – Sep 2022",
       bullets: [
-        "Built full-stack features using Node.js and React for secure, scalable systems supporting 5,000+ daily transactions.",
+        "Developed and maintained full-stack applications for secure payment platforms handling 5,000+ daily transactions",
         "Optimized end-to-end processing flows, reducing processing time by 18%.",
         "Worked with cross-functional teams to meet security standards and reduce vulnerabilities by 20%.",
+        "Collaborated in an agile environment, participating in code reviews, testing, and deployment cycles"
       ],
     },
   ];

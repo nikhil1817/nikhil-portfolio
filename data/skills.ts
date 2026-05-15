@@ -1,10 +1,80 @@
 export const skills = {
-    ai_ml: ["Machine Learning", "NLP", "Transformers", "BERT", "TensorFlow", "Scikit-Learn", "NLTK"],
-    languages: ["Python", "Java", "C#", "C", "C++", "PHP"],
-    fullstack: ["JavaScript", "HTML", "CSS", "React.js", "Node.js", "Next.js", "Django", "Flask", "REST APIs"],
-    data: ["SQL", "NoSQL", "MongoDB", "Data Modeling", "Data Pipelines"],
-    cloud_devops: ["AWS", "Google Cloud", "GitHub", "Jira"],
-    frameworks_tools: ["Spring Boot", "Angular", "Magento 2"],
-    methodology: ["Agile", "Scrum"],
-  };
+  ai_ml: [
+    "Machine Learning",
+    "Deep Learning",
+    "NLP",
+    "Transformers",
+    "BERT",
+    "TensorFlow",
+    "Scikit-Learn",
+    "LangChain",
+    "RAG",
+    "OpenAI API",
+    "Vector Databases",
+  ],
+
+  languages: [
+    "Python",
+    "Java",
+    "JavaScript",
+    "TypeScript",
+    "C#",
+    "C++",
+    "SQL",
+  ],
+
+  fullstack: [
+    "React.js",
+    "Next.js",
+    "Node.js",
+    "FastAPI",
+    "Django",
+    "Flask",
+    "Spring Boot",
+    "REST APIs",
+    "HTML",
+    "CSS",
+  ],
+
+  data: [
+    "MongoDB",
+    "PostgreSQL",
+    "MySQL",
+    "NoSQL",
+    "Data Modeling",
+    "Data Pipelines",
+    "Apache Spark",
+    "PySpark",
+    "Big Data",
+    "ETL Pipelines",
+  ],
+
+  cloud_devops: [
+    "AWS",
+    "Google Cloud",
+    "Docker",
+    "Kubernetes",
+    "Git",
+    "GitHub",
+    "CI/CD",
+    "Vercel",
+  ],
+
+  frameworks_tools: [
+    "LangChain",
+    "FAISS",
+    "ChromaDB",
+    "Power BI",
+    "Jira",
+    "Postman",
+    "VS Code",
+  ],
+
+  methodology: [
+    "Agile",
+    "Scrum",
+    "System Design",
+    "Distributed Systems",
+  ],
+};
   
