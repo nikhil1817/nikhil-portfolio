@@ -11,36 +11,38 @@ export type ExperienceItem = {
       company: "Room 35",
       role: "Technology and Systems Intern",
       location: "Kalamazoo, USA",
-      dates: "Oct 2025 – Apr",
+      dates: "Oct 2025 – Apr 2026",
       bullets: [
-        "Designed and developed scalable AI-powered applications and automation systems to improve operational efficiency and workflow reliability.",
-        "Built data pipelines and automation workflows, improving data accuracy by 40% and reducing manual reporting by 30%",
-        "Contributed to system design and architectural decisions for scalable applications",
-        "Architected internal software solutions including an intelligent chatbot to automate inquiries and improve team workflows.",
+        "Developed and deployed AI-powered applications and automation solutions to streamline workflows, improve information accessibility, and enhance operational efficiency.",
+        "Built automated data pipelines and reporting workflows, improving data accuracy by 40% and reducing manual reporting efforts by 30%.",
+        "Led the end-to-end delivery of internal software solutions from prototyping through deployment and continuous improvement.",
+        "Built automated integrations between internal business applications and deployed containerized solutions using Docker to improve operational efficiency.",
+        "Collaborated directly with stakeholders to gather requirements, validate solutions, and drive iterative product improvements."
       ],
     },
     {
       company: "ALSTOM",
       role: "Application Engineer",
-      location: "Bangalore, India",
+      location: "Bengaluru, India",
       dates: "Sep 2022 – Jun 2024",
       bullets: [
-        "Developed and maintained real-time front-end applications in C# (.NET), improving responsiveness by 20%.",
-        "Designed interfaces for railway monitoring systems, reducing operator training time by 15%.",
-        "Configured and optimized databases, improving data retrieval efficiency by 30%.",
-        "Led troubleshooting and optimization efforts, reducing downtime by 25% through proactive maintenance.",
+        "Developed and maintained high-concurrency, real-time data processing applications for mission-critical railway monitoring systems.",
+        "Improved system responsiveness by 20% and data retrieval efficiency by 30% through performance optimization and efficient data handling.",
+        "Diagnosed complex system bottlenecks and resolved runtime issues using log analysis, debugging, and proactive performance monitoring to maintain high system availability.",
+        "Collaborated with cross-functional teams to integrate monitoring interfaces, backend services, and real-time data systems."
       ],
     },
     {
       company: "WIPRO",
       role: "Product Engineer",
-      location: "Bangalore, India",
+      location: "Bengaluru, India",
       dates: "Aug 2021 – Sep 2022",
       bullets: [
-        "Developed and maintained full-stack applications for secure payment platforms handling 5,000+ daily transactions",
-        "Optimized end-to-end processing flows, reducing processing time by 18%.",
-        "Worked with cross-functional teams to meet security standards and reduce vulnerabilities by 20%.",
-        "Collaborated in an agile environment, participating in code reviews, testing, and deployment cycles"
+        "Developed and maintained Node.js microservices and REST APIs for secure payment platforms handling 5,000+ daily transactions.",
+        "Improved system scalability and performance by 18% through optimized application design and efficient data handling.",
+        "Developed responsive React.js user interfaces and reusable frontend components, improving usability, maintainability, and overall user experience across payment platform workflows.",
+        "Contributed to production issue investigation and resolution through debugging, testing, and system analysis.",
+        "Participated in Agile Scrum processes using Jira, Git, and Jenkins-based CI/CD workflows for code reviews, testing, build validation, and release activities."
       ],
     },
   ];

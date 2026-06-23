@@ -24,9 +24,9 @@ export default function Education() {
             <div className="h-1 w-12 rounded bg-blue-500/60 my-6" />
 
             <ul className="list-disc ml-6 space-y-3 text-slate-300 text-base md:text-lg leading-relaxed">
-              <li>Coursework in Machine Learning, Big Data, Advanced Algorithms, and Database Systems</li>
-              <li>Hands-on projects involving ML, NLP, and large-scale data processing</li>
-              <li>Focus on building scalable, data-driven software systems</li>
+              <li>Artificial Intelligence, Machine Learning, Distributed Systems, and Advanced Software Engineering</li>
+              <li>Built AI-powered applications using RAG, Multi-Agent Systems, MCP, Semantic Search, and LLMs</li>
+              <li>Developed scalable backend and full-stack systems using Java, Spring Boot, React, Next.js, PostgreSQL, Redis, and Docker</li>
             </ul>
           </div>
 
@@ -37,7 +37,7 @@ export default function Education() {
             </h3>
 
             <p className="text-slate-300 mt-2">
-              Visvesvaraya Technological University — Bengaluru, India
+              K.S. Institute of Technology — Bengaluru, India
             </p>
 
             <p className="text-slate-400 mt-1">

@@ -33,12 +33,11 @@ export default function Hero() {
         </h1>
 
         <p className="mt-4 text-xl md:text-2xl text-white/70">
-          Software Engineer | Full-Stack | ML & Data Systems | AI Engineer
+          Software Engineer | AI Engineer | Full-Stack Developer
         </p>
 
         <p className="mt-6 max-w-2xl text-base md:text-lg text-white/60 leading-relaxed">
-          I build scalable full-stack applications and AI-powered systems with experience in real-time
-          software, machine learning, and data platforms.
+        I design and build scalable software systems, AI-powered applications, and cloud-native platforms with expertise in backend engineering, distributed systems, full-stack development, and intelligent automation.
         </p>
 
         <div className="mt-10 flex flex-wrap items-center justify-center gap-4">

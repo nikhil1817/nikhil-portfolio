@@ -8,6 +8,26 @@ export type ProjectItem = {
   
   export const projects: ProjectItem[] = [
     {
+      title: "Team Collaboration Platform",
+      summary: "Engineered a production-style collaboration platform supporting workspace management, project planning, task tracking, file sharing, and real-time team communication using a containerized full-stack architecture.",
+      tech: ["Java", "Spring Boot", "Next.js", "PostgreSQL", "Redis", "WebSocket", "Docker"],
+      highlights: [
+        "Designed a layered Spring Boot architecture with Controllers, Services, Repositories, PostgreSQL persistence, and Redis-powered activity tracking.",
+        "Built real-time collaboration capabilities using WebSockets and containerized the entire stack with Docker Compose for reproducible deployment environments.",
+      ],
+      github: "https://github.com/nikhil1817/Team_Collaboration_Platform",
+    },
+    {
+      title: "AI Workspace Platform",
+      summary: "Built a production-grade AI workspace platform integrating RAG pipelines, vector search, conversational AI, evaluation systems, and enterprise knowledge retrieval for intelligent document analysis and decision support.",
+      tech: ["Python", "FastAPI", "OpenAI", "LangChain", "FAISS", "Streamlit", "RAG", "Embeddings", "Vector Search"],
+      highlights: [
+        "Developed end-to-end retrieval and generation workflows using embeddings, semantic search, and context-aware LLM responses.",
+        "Implemented evaluation, monitoring, and analytics modules to measure retrieval effectiveness, response quality, and AI system performance.",
+      ],
+      github: "https://github.com/nikhil1817/AI_Workspace_Platform",
+    },
+    {
       title: "AI Clinical Assistant system",
       summary: "Built an AI-powered clinical assistant that answers healthcare-related questions using Retrieval-Augmented Generation (RAG) over medical knowledge sources.",
       tech: ["Python", "FastAPI", "OpenAI", "FAISS", "LangChain", "Streamlit"],
@@ -19,13 +39,23 @@ export type ProjectItem = {
     },
     {
       title: "AI GitHub Engineering Assistant",
-      summary: "Built an AI-powered repository analysis system that clones GitHub repositories, indexes source code, and answers technical questions using Retrieval-Augmented Generation (RAG).",
-      tech: ["Python", "FastAPI", "Streamlit", "OpenAI", "FAISS", "LangChain"],
+      summary: "Engineered an MCP-enabled AI assistant capable of repository analysis, semantic code retrieval, and intelligent codebase reasoning through tool-driven workflows and Retrieval-Augmented Generation (RAG).",
+      tech: ["Python", "FastAPI", "Streamlit", "OpenAI", "FAISS", "LangChain", "MCP", "Vector Search"],
       highlights: [
-        "Implemented repository parsing and semantic code search using embeddings and vector similarity.",
-        "Built a RAG pipeline to generate contextual answers from indexed codebases.",
+        "Designed MCP tools for repository cloning, indexing, semantic search, and repository question-answering, enabling standardized agent-tool interactions.",
+        "Developed an end-to-end RAG system combining embeddings, vector retrieval, and LLM reasoning to generate contextual answers from large codebases.",
       ],
       github: "https://github.com/nikhil1817/AI_Github_Engineering_Assistant",
+    },
+    {
+      title: "Multi-Agent Research System",
+      summary: "Built a multi-agent AI research platform that autonomously plans, executes, critiques, and refines research tasks using collaborative AI agents and human-in-the-loop workflows.",
+      tech: ["Python", "FastAPI", "OpenAI", "LangGraph", "Streamlit", "Multi-Agent Systems", "RAG"],
+      highlights: [
+        "Designed specialized Planner, Researcher, Critic, and Summarizer agents that collaborate to generate high-quality research reports.",
+        "Implemented agent orchestration, feedback loops, and human approval workflows to improve research accuracy and reduce hallucinations.",
+      ],
+      github: "https://github.com/nikhil1817/Multi-Agent-Research-System",
     },
     {
       title: "Smart Interview System",

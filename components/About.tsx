@@ -2,8 +2,7 @@ export default function About() {
   const highlights = [
     { label: "Location", value: "Kalamazoo, MI" },
     { label: "Experience", value: "3+ years" },
-    { label: "Focus", value: "Full-Stack + ML/NLP" },
-    { label: "Education", value: "MS CS (June 2026)" },
+    { label: "Education", value: "MS CS (December 2026)" },
   ];
 
   return (
@@ -17,19 +16,23 @@ export default function About() {
           {/* Main text card */}
           <div className="lg:col-span-2 border border-white/10 rounded-2xl p-8 md:p-10 bg-[#020617]/60">
             <p className="text-lg md:text-xl text-slate-300 leading-relaxed">
-              I’m <span className="text-white font-semibold">Nikhil Krishnaprasad</span>, a Software Engineer
-              with 3+ years of experience building scalable full-stack applications, real-time systems, and
-              ML/NLP solutions. I enjoy turning complex problems into clean, maintainable software and
-              building intelligent, data-driven products. I’m currently pursuing my Master’s in Computer
-              Science at Western Michigan University.
+            I’m <span className="text-white font-semibold">Nikhil Krishnaprasad</span>, a Software Engineer
+            with 3+ years of experience building scalable software systems, cloud-native applications, and
+            AI-powered platforms. My expertise spans backend engineering, distributed systems, full-stack
+            development, and applied AI, with hands-on experience in LLMs, RAG pipelines, multi-agent
+            systems, and intelligent automation. Currently pursuing my Master’s in Computer Science at
+            Western Michigan University, I enjoy building reliable, high-impact software that solves
+            real-world problems.
             </p>
 
             <div className="mt-8 flex flex-wrap gap-3">
               {[
-                "Software Engineering",
-                "ML & Data Systems",
-                "NLP (Transformers/BERT)",
-                "Next.js / React / Node",
+                "Spring Boot & Java",
+                "AI Agents & MCP",
+                "RAG & Vector Search",
+                "Next.js / React",
+                "Redis & WebSockets",
+                "Docker & Cloud"
               ].map((tag) => (
                 <span
                   key={tag}

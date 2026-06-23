@@ -27,15 +27,15 @@ export default function Skills() {
         <h2 className="text-3xl md:text-4xl font-bold mb-10 text-white">Skills</h2>
 
         <div className="grid lg:grid-cols-2 gap-6">
-          <SkillGroup title="AI / ML" items={skills.ai_ml} />
+          <SkillGroup title="AI and Intelligent Systems" items={skills.ai_ml} />
           <SkillGroup title="Programming Languages" items={skills.languages} />
           <SkillGroup title="Full-Stack" items={skills.fullstack} />
-          <SkillGroup title="Data" items={skills.data} />
+          <SkillGroup title="Database and Data Engineering" items={skills.data} />
           <SkillGroup
-            title="Cloud & Tools"
+            title="Cloud & Devops"
             items={[...skills.cloud_devops, ...skills.frameworks_tools]}
           />
-          <SkillGroup title="Methodology" items={skills.methodology} />
+          <SkillGroup title="Software Engineering" items={skills.methodology} />
         </div>
       </div>
     </section>

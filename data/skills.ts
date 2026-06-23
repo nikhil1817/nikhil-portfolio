@@ -4,77 +4,75 @@ export const skills = {
     "Deep Learning",
     "NLP",
     "Transformers",
-    "BERT",
-    "TensorFlow",
-    "Scikit-Learn",
     "LangChain",
     "RAG",
+    "Multi-Agent AI",
+    "MCP",
     "OpenAI API",
-    "Vector Databases",
-  ],
-
-  languages: [
+    "Vector Search",
+    "FAISS",
+    "ChromaDB",
+    ],
+    
+    languages: [
     "Python",
     "Java",
     "JavaScript",
     "TypeScript",
-    "C#",
-    "C++",
     "SQL",
-  ],
-
-  fullstack: [
+    "C++",
+    ],
+    
+    fullstack: [
+    "Spring Boot",
+    "FastAPI",
     "React.js",
     "Next.js",
     "Node.js",
-    "FastAPI",
+    "REST APIs",
+    "WebSockets",
     "Django",
     "Flask",
-    "Spring Boot",
-    "REST APIs",
     "HTML",
     "CSS",
-  ],
-
-  data: [
-    "MongoDB",
+    ],
+    
+    data: [
     "PostgreSQL",
+    "MongoDB",
     "MySQL",
-    "NoSQL",
-    "Data Modeling",
-    "Data Pipelines",
+    "Redis",
     "Apache Spark",
     "PySpark",
-    "Big Data",
+    "Data Modeling",
     "ETL Pipelines",
-  ],
-
-  cloud_devops: [
+    ],
+    
+    cloud_devops: [
     "AWS",
     "Google Cloud",
     "Docker",
     "Kubernetes",
+    "CI/CD",
     "Git",
     "GitHub",
-    "CI/CD",
     "Vercel",
-  ],
-
-  frameworks_tools: [
-    "LangChain",
+    ],
+    
+    frameworks_tools: [
+    "LangGraph",
     "FAISS",
     "ChromaDB",
-    "Power BI",
-    "Jira",
     "Postman",
-    "VS Code",
-  ],
-
-  methodology: [
-    "Agile",
-    "Scrum",
+    "Jira",
+    "Power BI",
+    ],
+    
+    methodology: [
     "System Design",
     "Distributed Systems",
-  ],
+    "Agile",
+    "Scrum",
+    ],    
 };
   
