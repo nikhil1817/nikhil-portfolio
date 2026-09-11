@@ -5,7 +5,7 @@ export default function Hero() {
   return (
     <section
       id="home"
-      className="relative flex min-h-[85vh] items-center justify-center px-6 pt-24"
+      className="relative flex min-h-[70vh] items-center justify-center px-6 pt-32 pb-12"
     >
       {/* Background glow */}
       <div className="pointer-events-none absolute inset-0 -z-10">
