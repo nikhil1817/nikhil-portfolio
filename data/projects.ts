@@ -18,6 +18,16 @@ export type ProjectItem = {
       github: "https://github.com/nikhil1817/Team_Collaboration_Platform",
     },
     {
+      title: "Marketplace Entitlement & Usage-Metering Service",
+      summary: "Designed and implemented an end-to-end subscription/entitlement service integrating with an event-driven AWS SQS pipeline, enforcing database-level idempotency for reliable, at-least-once message handling of usage and billing events.",
+      tech: ["Python", "FastAPI", "SQLAlchemy", "AWS SQS", "ECS Fargate", "RDS", "Terraform", "PostgreSQL", "Docker"],
+      highlights: [
+        "Built an event-driven entitlement and usage-metering pipeline on AWS SQS with database-level idempotency to guarantee reliable, at-least-once message processing.",
+        "Provisioned infrastructure as code with Terraform and followed a spec-driven development workflow validated by an automated test suite.",
+      ],
+      github: "https://github.com/nikhil1817/Marketplace-Entitlement-and-Usage-Metering-Services"
+    },
+    {
       title: "AI Workspace Platform",
       summary: "Built a production-grade AI workspace platform integrating RAG pipelines, vector search, conversational AI, evaluation systems, and enterprise knowledge retrieval for intelligent document analysis and decision support.",
       tech: ["Python", "FastAPI", "OpenAI", "LangChain", "FAISS", "Streamlit", "RAG", "Embeddings", "Vector Search"],

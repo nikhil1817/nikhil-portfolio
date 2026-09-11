@@ -1,8 +1,9 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #0a0e14;
+  --foreground: #e7e3da;
+  --accent: #c9914f;
 }
 
 @theme inline {
@@ -12,16 +13,31 @@
   --font-mono: var(--font-geist-mono);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
-  background-color: #020617;
+  font-family: var(--font-geist-sans), Arial, Helvetica, sans-serif;
+}
+
+/* momentary highlight when the search jumps to a skill or project */
+.search-highlight {
+  animation: search-pulse 1.8s ease-out 1;
+}
+
+@keyframes search-pulse {
+  0% {
+    box-shadow: 0 0 0 0 rgba(201, 145, 79, 0.55);
+    border-color: rgba(201, 145, 79, 0.9);
+  }
+  100% {
+    box-shadow: 0 0 0 10px rgba(201, 145, 79, 0);
+    border-color: rgba(231, 227, 218, 0.1);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .search-highlight {
+    animation: none;
+    outline: 2px solid var(--accent);
+  }
 }

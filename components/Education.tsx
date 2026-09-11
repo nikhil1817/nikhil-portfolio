@@ -8,8 +8,8 @@ export default function Education() {
 
         <div className="space-y-8">
           {/* Master's */}
-          <div className="border border-white/10 rounded-2xl p-8 md:p-10 bg-[#020617]/60">
-            <h3 className="text-xl md:text-2xl font-semibold text-blue-400">
+          <div className="border border-white/10 rounded-2xl p-8 md:p-10 bg-[#121821]/70">
+            <h3 className="text-xl md:text-2xl font-semibold text-[#C9914F]">
               Master of Science in Computer Science
             </h3>
 
@@ -21,7 +21,7 @@ export default function Education() {
               Expected April 2026
             </p>
 
-            <div className="h-1 w-12 rounded bg-blue-500/60 my-6" />
+            <div className="h-1 w-12 rounded bg-[#C9914F]/60 my-6" />
 
             <ul className="list-disc ml-6 space-y-3 text-slate-300 text-base md:text-lg leading-relaxed">
               <li>Artificial Intelligence, Machine Learning, Distributed Systems, and Advanced Software Engineering</li>
@@ -31,8 +31,8 @@ export default function Education() {
           </div>
 
           {/* Bachelor's */}
-          <div className="border border-white/10 rounded-2xl p-8 md:p-10 bg-[#020617]/60">
-            <h3 className="text-xl md:text-2xl font-semibold text-blue-400">
+          <div className="border border-white/10 rounded-2xl p-8 md:p-10 bg-[#121821]/70">
+            <h3 className="text-xl md:text-2xl font-semibold text-[#C9914F]">
               Bachelor of Engineering in Computer Science
             </h3>
 
@@ -44,7 +44,7 @@ export default function Education() {
               Graduated 2021
             </p>
 
-            <div className="h-1 w-12 rounded bg-blue-500/60 my-6" />
+            <div className="h-1 w-12 rounded bg-[#C9914F]/60 my-6" />
 
             <ul className="list-disc ml-6 space-y-3 text-slate-300 text-base md:text-lg leading-relaxed">
               <li>Strong foundation in data structures, algorithms, and software engineering</li>

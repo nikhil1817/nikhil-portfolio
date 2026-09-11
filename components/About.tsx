@@ -9,12 +9,12 @@ export default function About() {
     <section id="about" className="px-6 md:px-20 py-24">
       <div className="max-w-6xl mx-auto">
         <h2 className="text-3xl md:text-4xl font-bold mb-10 text-white text-center">
-          About <span className="text-blue-400">Nikhil</span>
+          About <span className="text-[#C9914F]">Nikhil</span>
         </h2>
 
         <div className="grid lg:grid-cols-3 gap-6">
           {/* Main text card */}
-          <div className="lg:col-span-2 border border-white/10 rounded-2xl p-8 md:p-10 bg-[#020617]/60">
+          <div className="lg:col-span-2 border border-white/10 rounded-2xl p-8 md:p-10 bg-[#121821]/70">
             <p className="text-lg md:text-xl text-slate-300 leading-relaxed">
             I’m <span className="text-white font-semibold">Nikhil Krishnaprasad</span>, a Software Engineer
             with 3+ years of experience building scalable software systems, cloud-native applications, and
@@ -45,11 +45,11 @@ export default function About() {
           </div>
 
           {/* Highlights card */}
-          <div className="border border-white/10 rounded-2xl p-8 md:p-10 bg-[#020617]/60">
+          <div className="border border-white/10 rounded-2xl p-8 md:p-10 bg-[#121821]/70">
             <h3 className="text-xl md:text-2xl font-semibold text-white mb-2">
               Highlights
             </h3>
-            <div className="h-1 w-12 rounded bg-blue-500/60 mb-6" />
+            <div className="h-1 w-12 rounded bg-[#C9914F]/60 mb-6" />
 
             <div className="space-y-5">
               {highlights.map((h) => (
@@ -63,7 +63,7 @@ export default function About() {
             <div className="mt-8">
               <a
                 href="#projects"
-                className="inline-block w-full text-center rounded-xl bg-blue-500 px-6 py-3 font-medium text-white hover:bg-blue-400 transition"
+                className="inline-block w-full text-center rounded-xl bg-[#C9914F] px-6 py-3 font-medium text-white hover:bg-[#DAA968] transition"
               >
                 View Projects
               </a>

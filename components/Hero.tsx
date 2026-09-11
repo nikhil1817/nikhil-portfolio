@@ -1,4 +1,5 @@
 import Image from "next/image";
+import SearchBar from "./SearchBar";
 
 export default function Hero() {
   return (
@@ -9,12 +10,12 @@ export default function Hero() {
       {/* Background glow */}
       <div className="pointer-events-none absolute inset-0 -z-10">
         <div className="absolute inset-0 bg-gradient-to-b from-slate-950 via-slate-950 to-black" />
-        <div className="absolute left-1/2 top-24 h-[420px] w-[420px] -translate-x-1/2 rounded-full bg-blue-500/20 blur-3xl" />
+        <div className="absolute left-1/2 top-24 h-[420px] w-[420px] -translate-x-1/2 rounded-full bg-[#C9914F]/12 blur-3xl" />
       </div>
 
       <div className="mx-auto flex max-w-3xl flex-col items-center text-center">
         {/* Profile photo */}
-        <div className="mb-6 rounded-full p-[3px] bg-gradient-to-r from-blue-400/70 to-blue-600/70">
+        <div className="mb-6 rounded-full p-[3px] bg-gradient-to-r from-[#C9914F]/70 to-[#7C531F]/70">
           <div className="rounded-full bg-slate-950 p-1">
             <Image
               src="/profile.jpg"
@@ -28,8 +29,8 @@ export default function Hero() {
         </div>
 
         <h1 className="text-4xl md:text-6xl font-extrabold tracking-tight text-white">
-          Hi, I'm{" "}
-          <span className="text-blue-400">Nikhil Krishnaprasad</span>
+          Hi, I&apos;m{" "}
+          <span className="text-[#C9914F]">Nikhil Krishnaprasad</span>
         </h1>
 
         <p className="mt-4 text-xl md:text-2xl text-white/70">
@@ -43,7 +44,7 @@ export default function Hero() {
         <div className="mt-10 flex flex-wrap items-center justify-center gap-4">
           <a
             href="#about"
-            className="rounded-xl bg-blue-500 px-6 py-3 font-medium text-white hover:bg-blue-400 transition"
+            className="rounded-xl bg-[#C9914F] px-6 py-3 font-medium text-white hover:bg-[#DAA968] transition"
           >
             Learn More About Me
           </a>
@@ -54,6 +55,13 @@ export default function Hero() {
           >
             View My Projects
           </a>
+        </div>
+
+        <div className="mt-10 flex flex-col items-center gap-2">
+          <SearchBar />
+          <p className="text-xs text-white/35">
+            Try &quot;RAG&quot;, &quot;Docker&quot;, or &quot;Next.js&quot; to jump straight to the relevant skill or project.
+          </p>
         </div>
       </div>
     </section>
